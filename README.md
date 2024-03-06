@@ -34,7 +34,7 @@ poetry install
 poetry shell
 ## Apply migrations
 python source/manage.py migrate
-##Running
+## Running
 # A development server
 Just run this command:
 
