@@ -1,6 +1,42 @@
 # login-with-django
 
-A registration and login system would be the basic CTA for a website that you can try building using Django. The registration page would include fields such as the mail-id or phone number, the username(optional), new password and a remember me checkbox. The user can sign up with their mail-id or phone number and set a password according to the guidelines. The profile is activated via an activation code which is mailed to the user.
+##Feature
+Log in
+via username & password
+via email & password
+via email or username & password
+with a remember me checkbox (optional)
+Create an account
+Log out
+Profile activation via email
+Reset password
+Remind a username
+Resend an activation code
+Change password
+Change email
+Change profile
+Multilingual: English, French, Russian, Simplified Chinese and Spanish
 
-Later, the login page displays fields to enter the username/mail-id/phone number and password. The user can then click on the login button to log into the website.
-Additionally, you can also implement a password reset mechanism.
+##Installing
+git clone https://github.com/egorsmkv/simple-django-login-and-register
+cd simple-django-login-and-register
+
+###Install dependencies & activate virtualenv
+#Create a virtualenv using conda (optional)
+conda create -n simple-django-login-and-register python=3.11
+
+conda activate simple-django-login-and-register
+#Install dependencies
+pip install poetry
+
+poetry install
+poetry shell
+##Apply migrations
+python source/manage.py migrate
+##Running
+#A development server
+Just run this command:
+
+python source/manage.py runserver
+
+
