@@ -19,11 +19,13 @@ Change profile
 Multilingual: English, French, Russian, Simplified Chinese and Spanish
 
 ## Installing
+
 git clone https://github.com/egorsmkv/simple-django-login-and-register
 cd simple-django-login-and-register
 
 ## Install dependencies & activate virtualenv
 #### Create a virtualenv using conda (optional)
+
 conda create -n simple-django-login-and-register python=3.11
 
 conda activate simple-django-login-and-register
