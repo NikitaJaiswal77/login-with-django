@@ -21,6 +21,7 @@ Multilingual: English, French, Russian, Simplified Chinese and Spanish
 ## Installing
 
 git clone https://github.com/egorsmkv/simple-django-login-and-register
+
 cd simple-django-login-and-register
 
 ## Install dependencies & activate virtualenv
