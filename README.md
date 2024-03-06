@@ -1,6 +1,6 @@
 # login-with-django
 
-##Feature
+## Feature
 
 Log in
 via username & password
@@ -18,24 +18,24 @@ Change email
 Change profile
 Multilingual: English, French, Russian, Simplified Chinese and Spanish
 
-##Installing
+## Installing
 '''git clone https://github.com/egorsmkv/simple-django-login-and-register'''
 '''cd simple-django-login-and-register'''
 
-###Install dependencies & activate virtualenv
-#Create a virtualenv using conda (optional)
+## Install dependencies & activate virtualenv
+#### Create a virtualenv using conda (optional)
 conda create -n simple-django-login-and-register python=3.11
 
 conda activate simple-django-login-and-register
-#Install dependencies
+# Install dependencies
 pip install poetry
 
 poetry install
 poetry shell
-##Apply migrations
+## Apply migrations
 python source/manage.py migrate
 ##Running
-#A development server
+# A development server
 Just run this command:
 
 python source/manage.py runserver
